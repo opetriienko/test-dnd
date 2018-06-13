@@ -10,7 +10,7 @@ import { DndModule } from '@beyerleinf/ngx-dnd';
   ],
   imports: [
     BrowserModule,
-    DndModule
+    DndModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
